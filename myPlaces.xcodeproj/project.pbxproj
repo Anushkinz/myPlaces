@@ -72,7 +72,10 @@
 		8403BA6D27A19DF800CA01FE = {
 			isa = PBXGroup;
 			children = (
+				8446E52627C7F9F5007AA1EA /* Application */,
 				8403BA7827A19DF800CA01FE /* myPlaces */,
+				8403BA8727A19DF900CA01FE /* Info.plist */,
+				8446E52A27C7FA30007AA1EA /* supporting files */,
 				8403BA7727A19DF800CA01FE /* Products */,
 				1A2E25AB0893DCC28F807481 /* Pods */,
 				36AB17F8CD5AABE2923A9814 /* Frameworks */,
@@ -90,20 +93,89 @@
 		8403BA7827A19DF800CA01FE /* myPlaces */ = {
 			isa = PBXGroup;
 			children = (
-				8403BA7927A19DF800CA01FE /* AppDelegate.swift */,
-				8403BA8D27A1A5BD00CA01FE /* MainViewController.swift */,
+				8446E52B27C7FAE3007AA1EA /* network */,
+				8446E52527C7F992007AA1EA /* Controller */,
+				8446E52427C7F987007AA1EA /* View */,
+				8446E52327C7F980007AA1EA /* Model */,
+			);
+			path = myPlaces;
+			sourceTree = "<group>";
+		};
+		8446E52327C7F980007AA1EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
 				84623A1127A45B48009C3BC4 /* PlaceModel.swift */,
-				8420BB6827AD71070090A8D6 /* StorageManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8446E52427C7F987007AA1EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8446E52527C7F992007AA1EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8403BA8D27A1A5BD00CA01FE /* MainViewController.swift */,
 				84AD9B7627A31CC7002842EE /* CustomTableViewCell.swift */,
 				84623A1327A46D9F009C3BC4 /* NewPlaceViewController.swift */,
 				840AB0CA27B6AAAB00474245 /* StopWatchViewController.swift */,
-				8403BA7B27A19DF800CA01FE /* SceneDelegate.swift */,
-				8403BA7F27A19DF800CA01FE /* Main.storyboard */,
-				8403BA8227A19DF900CA01FE /* Assets.xcassets */,
-				8403BA8427A19DF900CA01FE /* LaunchScreen.storyboard */,
-				8403BA8727A19DF900CA01FE /* Info.plist */,
 			);
-			path = myPlaces;
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8446E52627C7F9F5007AA1EA /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				8446E52927C7FA18007AA1EA /* Controller */,
+				8446E52827C7FA0F007AA1EA /* View */,
+				8446E52727C7FA09007AA1EA /* Model */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		8446E52727C7FA09007AA1EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		8446E52827C7FA0F007AA1EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8403BA8427A19DF900CA01FE /* LaunchScreen.storyboard */,
+				8403BA7F27A19DF800CA01FE /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8446E52927C7FA18007AA1EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				8403BA7927A19DF800CA01FE /* AppDelegate.swift */,
+				8403BA7B27A19DF800CA01FE /* SceneDelegate.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		8446E52A27C7FA30007AA1EA /* supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				8403BA8227A19DF900CA01FE /* Assets.xcassets */,
+			);
+			path = "supporting files";
+			sourceTree = "<group>";
+		};
+		8446E52B27C7FAE3007AA1EA /* network */ = {
+			isa = PBXGroup;
+			children = (
+				8420BB6827AD71070090A8D6 /* StorageManager.swift */,
+			);
+			path = network;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
